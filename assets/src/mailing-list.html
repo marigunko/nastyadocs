@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5BD0E6">
+        <link href="css/main.min.css" rel="stylesheet">
+
+        <title itemprop="headline">Главная | Анастасия Тарасова</title>
+    </head>
+
+    <body class="page-content page-home">
+        <header class="nav__container fixed-top p-0">       
+            <nav class="navbar navbar-expand-lg container py-1">
+                <a class="navbar-brand my-2 mr-2" href="index.html">
+                    <img src="img/logo.svg" width="180" height="50" alt="Анастасия Тарасова">
+                </a>
+                <div class="navbar__icon d-lg-none" type="button" data-target="#menu-nav" data-toggle="collapse">
+                </div>
+                <div id="menu-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex flex-wrap align-items-center mr-0 ml-auto ">
+                        <li class="nav-item m-2">
+                            <a class="nav-link " href="courses.html">Курсы</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="book.html">Книга</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link active" href="#">Рассылка</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="about.html">Обо&nbspмне</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                        <li class="nav-item d-md-none m-2">
+                            <a class="nav-link" href="404.html">Вход</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block my-2 ml-2">
+                            <a href="404.html" class="btn btn-outline-primary rounded-pill nav__btn m-0">Вход</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+                
+            <div class="fixed-side-navbar d-none d-md-block">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#home"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#advantages"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profit"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#details"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rate"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog"></a></li>
+                </ul>
+            </div>
+
+            <section class="position-relative" id="home">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-5 align-self-center">
+                            <div class="row">
+                                <div class="col-12 pt-5 pt-md-0">
+                                    <h1 class="text-center text-md-left">Торгуем вместе</strong></h1>
+                                    <div class="text-center text-md-left text-secondary mb-3 mb-md-5">Еженедельная рассылка в <strong>Телеграмме </strong>с рекомендациями по совершению <strong>сделок на бирже</strong></div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 text-center text-md-left mt-5"><a href="#rate" class="btn btn-primary btn-block rounded-pill text-bold"><strong>Купить</strong></a></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 align-self-center mt-5 mt-md-0">
+                            <div class="row">
+                                <div class="col-12 col-lg-8">
+                                    <div class="card">
+                                        <p class="text-muted p-4">График цены и объема | <strong class="text-body">Лукойл</strong></p>
+                                        <img class="card-img" src="files/graph-2.png" width="100%" height="auto" alt="График">
+                                        <div class="card-body">
+                                            <div class="nav nav-pills d-flex justify-content-center pb-3" id="nav-tab" role="tablist">
+                                                <a class="card-body__text--small nav-link text-center" href="#hour" id="nav-pill-hour" role="pill" data-toggle="pill">Ч4</a>
+                                                <a class="card-body__text--small nav-link text-center" href="#day" id="nav-pill-day" role="pill" data-toggle="pill">День</a>
+                                                <a class="card-body__text--small nav-link text-center" href="#week" id="nav-pill-week" role="pill" data-toggle="pill">Неделя</a>
+                                                <a class="card-body__text--small nav-link text-center active" href="#month" id="nav-pill-month" role="pill" data-toggle="pill">Месяц</a>
+                                                <a class="card-body__text--small nav-link text-center" href="#halfyear" id="nav-pill-halfyear" role="pill" data-toggle="pill">Полгода</a>
+                                                <a class="card-body__text--small nav-link text-center" href="#year" id="nav-pill-year" role="pill" data-toggle="pill">Год</a>
+                                            </div>
+                                            <div class="tab-content" id="tab-content">
+                                                <div class="tab-pane fade" role="tabpanel" id="hour">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5><span class="text-success">&uarr; </span>184,82 ₽</h5>
+                                                        <p class="text-muted">сегодня 14:13</p> 
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p><span class="text-success">+1,97 ₽</span> | <span class="text-success">1,05%</span></p>
+                                                        <p class="text-muted">за день</p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" role="tabpanel" id="day">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5><span class="text-success">&uarr; </span>184,82 ₽</h5>
+                                                        <p class="text-muted">сегодня 14:13</p> 
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p><span class="text-success">+1,97 ₽</span> | <span class="text-success">1,05%</span></p>
+                                                        <p class="text-muted">за день</p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" role="tabpanel" id="week">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5><span class="text-success">&uarr; </span>184,82 ₽</h5>
+                                                        <p class="text-muted">сегодня 14:13</p> 
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p><span class="text-success">+1,97 ₽</span> | <span class="text-success">1,05%</span></p>
+                                                        <p class="text-muted">за день</p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade active show" role="tabpanel" id="month">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5><span class="text-success">&uarr; </span>184,82 ₽</h5>
+                                                        <p class="text-muted">сегодня 14:13</p> 
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p ><span class="text-success">+1,97 ₽</span> | <span class="text-success">1,05%</span></p>
+                                                        <p class="text-muted">за день</p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" role="tabpanel" id="halfyear">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5><span class="text-success">&uarr; </span>184,82 ₽</h5>
+                                                        <p class="text-muted">сегодня 14:13</p> 
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p><span class="text-success">+1,97 ₽</span> | <span class="text-success">1,05%</span></p>
+                                                        <p class="text-muted">за день</p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" role="tabpanel" id="year">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5><span class="text-success">&uarr; </span>184,82 ₽</h5>
+                                                        <p class="text-muted">сегодня 14:13</p> 
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p><span class="text-success">+1,97 ₽</span> | <span class="text-success">1,05%</span></p>
+                                                        <p class="text-muted">за день</p> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-12 pb-lg-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="h5"><strong>Брокерский счет</strong></div>
+                                                    <p class="text-secondary">27568 (основной)</p>
+                                                    <div class="h5"><strong>100</strong></div>
+                                                    <p class="text-secondary">Ваших акций</p>
+                                                    <div class="h5"><strong>167,96 ₽/шт.</strong></div>
+                                                    <p class="text-secondary">Цена покупки</p>
+                                                    <div class="h5"><strong>18 482,53 ₽</strong></div>
+                                                    <p class="text-secondary">Текущая стоимость</p>
+                                                    <div class="h5 text-success"><strong>+1 771,51 ₽<span class="text-muted"> | </span>9,73%</strong></div>
+                                                    <p class="text-secondary mb-0">Изменение стоимости</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="text-secondary">Откр.</p>
+                                                        <p><strong>247,98 ₽</strong></p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="text-secondary">Закр.</p>
+                                                        <p><strong>247,98 ₽</strong></p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="text-secondary">Макс.</p>
+                                                        <p><strong>247,98 ₽</strong></p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="text-secondary mb-0">Мин.</p>
+                                                        <p class="mb-0"><strong>231 ₽</strong></p>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+            </section>
+    
+            <section class="position-relative" id="advantages">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <h2 class="text-center text-md-left mb-5">Как вам <strong>поможет рассылка?</strong></h2>
+                            <div class="d-md-none align-self-center p-2 my-5">
+                                <img class="w-100" src="files/mailing-list-money.png" alt="" />
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/clock.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>Сэкономите время на анализе рынка</strong></h6>
+                                    <p class="text-secondary">В среднем анализ рынка занимает 2-4 часа в день</p> 
+                                </div>               
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/edit.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>Если не знаете, когда лучше открывать или закрывать сделки</strong></h6>
+                                    <p class="text-secondary">Даже несколько минут могут сыграть на результате сделки</p>  
+                                </div>               
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/like.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>Сэкономите время на анализе рынка</strong></h6>
+                                    <p class="text-secondary">В среднем анализ рынка занимает 2-4 часа в день</p>  
+                                </div>               
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block col-6 align-self-center">
+                            <img class="w-100" src="files/mailing-list-money.png" alt="" />
+                        </div>
+                    </div>
+                </div>          
+            </section>
+    
+            <section class="position-relative" id="profit">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <h2 class="text-center text-md-left">Доходность по рассылке <strong>«Торгуем вместе»</strong></h2>
+                            <p class="text-center text-md-left text-secondary mb-3 mb-5">Делимся своим прогрессом</p>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0"><img src="files/file.svg" width="24" height="24" alt="" /></div>
+                                <div class="col mt-1">
+                                    <h6>Сделки не абстрактные, а реально совершаемые мною. Рассказываю про свой опыт</h6>
+                                </div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0"><img src="files/file-text.svg" width="24" height="24" alt="" /></div>
+                                <div class="col mt-1">
+                                    <h6>В каждом выпуске будут среднесрочные торговые рекомендации по российским акциям (фондовый рынок) и фьючерсным контрактам (срочный рынок)</h6>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center justify-content-md-start mt-5">
+                                <div class="col-12 col-md-8 col-lg-6">
+                                    <a href="404.html" class="btn btn-primary btn-block rounded-pill"><strong>Подробнее</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 align-self-center mt-5 mt-md-0">
+                            <div class="profit__sl">
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/graph-1.png" alt="График" />
+                                        <div class="card-body">
+                                            <div class="nav nav-pills d-flex justify-content-between align-items-center my-2" role="tablist">
+                                                <div class="card-body__text--small text-center text-muted">Доход за</div>
+                                                <a class="card-body__text--small nav-link text-center" href="#month-1" role="pill" data-toggle="pill">Месяц</a>
+                                                <a class="card-body__text--small nav-link text-center active" href="#halfyear-1" role="pill" data-toggle="pill">Полгода</a>
+                                                <a class="card-body__text--small nav-link text-center" href="#year-1" role="pill" data-toggle="pill">Год</a>
+                                            </div>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade" role="tabpanel" id="month-1">
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left font-weight-bold">Доход за месяц</div>
+                                                        <div class="tab-content__text--small col-6 text-right text-success">&uarr; +11,41%</div>
+                                                        
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left text-muted">Количество сделок</div>
+                                                        <div class="tab-content__text--small col-6 text-right font-weight-bold">155</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <a class="tab-content__text--small pl-3" href="#">Смотреть подробную статистику &rarr;</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade active show" role="tabpanel" id="halfyear-1">
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left font-weight-bold">Доход за  полгода</div>
+                                                        <div class="tab-content__text--small col-6 text-right text-success">&uarr; +11,41%</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left text-muted">Количество сделок</div>
+                                                        <div class="tab-content__text--small col-6 text-right font-weight-bold">155</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <a class="tab-content__text--small pl-3" href="#">Смотреть подробную статистику &rarr;</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" role="tabpanel" id="year-1">
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left font-weight-bold">Доход за год</div>
+                                                        <div class="tab-content__text--small col-6 text-right text-success">&uarr; +11,41%</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left text-muted">Количество сделок</div>
+                                                        <div class="tab-content__text--small col-6 text-right font-weight-bold">155</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <a class="tab-content__text--small pl-3" href="#">Смотреть подробную статистику &rarr;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/graph-1.png" alt="График" />
+                                        <div class="card-body">
+                                            <div class="nav nav-pills d-flex justify-content-between align-items-center my-2" role="tablist">
+                                                <div class="card-body__text--small text-center text-muted">Доход за</div>
+                                                <a class="card-body__text--small nav-link text-center" href="#month-2" role="pill" data-toggle="pill">Месяц</a>
+                                                <a class="card-body__text--small nav-link text-center active" href="#halfyear-2" role="pill" data-toggle="pill">Полгода</a>
+                                                <a class="card-body__text--small nav-link text-center" href="#year-2" role="pill" data-toggle="pill">Год</a>
+                                            </div>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade" role="tabpanel" id="month-2">
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left font-weight-bold">Доход за месяц</div>
+                                                        <div class="tab-content__text--small col-6 text-right text-success">&uarr; +11,41%</div>   
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left text-muted">Количество сделок</div>
+                                                        <div class="tab-content__text--small col-6 text-right font-weight-bold">155</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <a class="tab-content__text--small pl-3" href="#">Смотреть подробную статистику &rarr;</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade active show" role="tabpanel" id="halfyear-2">
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left font-weight-bold">Доход за  полгода</div>
+                                                        <div class="tab-content__text--small col-6 text-right text-success">&uarr; +11,41%</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left text-muted">Количество сделок</div>
+                                                        <div class="tab-content__text--small col-6 text-right font-weight-bold">155</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <a class="tab-content__text--small pl-3" href="#">Смотреть подробную статистику &rarr;</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" role="tabpanel" id="year-2">
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left font-weight-bold">Доход за год</div>
+                                                        <div class="tab-content__text--small col-6 text-right text-success">&uarr; +11,41%</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <div class="tab-content__text--small col-6 text-left text-muted">Количество сделок</div>
+                                                        <div class="tab-content__text--small col-6 text-right font-weight-bold">155</div>
+                                                    </div>
+                                                    <div class="row mt-3">
+                                                        <a class="tab-content__text--small pl-3" href="#">Смотреть подробную статистику &rarr;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="position-relative" id="reviews">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-5 align-self-center">
+                            <h2 class="text-center text-md-left"><strong>Отзывы моих учеников </strong> о курсе Сам себе Инвестор</h2>
+                            <p class="text-center text-md-left text-secondary mb-3">Горжусь моими учениками! Вместе мы движемся к большим целям и совершенствуемся</p>
+                            <p class="text-center text-md-left mb-0">Больше счастливых отзывов вы сможете найти в моём Инстаграме с отзывами, так как их слишком много.Мне всегда очень приятно, когда вы их оставляете и делитесь своими достижениями</p>
+                        </div>
+                        <div class="col-12 col-md-7 align-self-center mt-5 mt-md-0">
+                            <div class="reviews__sl">
+                                <div class="sl__item px-2"><img src="files/review-screenshot-1.png" width="100%" height="auto" alt="Фото" /></div>
+                                <div class="sl__item px-2"><img src="files/review-screenshot-2.png" width="100%" height="auto" alt="Фото" /></div>
+                                <div class="sl__item px-2"><img src="files/review-screenshot-1.png" width="100%" height="auto" alt="Фото" /></div>
+                                <div class="sl__item px-2"><img src="files/review-screenshot-2.png" width="100%" height="auto" alt="Фото" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="position-relative" id="details">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <div class="card">
+                                <p class="text-muted px-4 pt-4">Market Summary | <strong class="text-body">Sturm Ruger & Company Inc</strong></p>
+                                <p class="text-muted px-4">NYSE: RGR</p>
+                                <div class="card-body">
+                                    <div class="tab-content" id="tab-content">
+                                        <div class="tab-pane fade pb-3" role="tabpanel" id="day-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade pb-3" role="tabpanel" id="week-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade active show pb-3" role="tabpanel" id="month-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade pb-3" role="tabpanel" id="halfyear-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade pb-3" role="tabpanel" id="year-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade pb-3" role="tabpanel" id="fiveyears-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade pb-3" role="tabpanel" id="max-3">
+                                            <div class="d-flex flex-column">
+                                                <h5><span class="text-success">&uarr; </span>68,58 <span class="text-muted">USD </span></h5>
+                                                <p><span class="text-success">+0,040</span> | <span class="text-success">1,05% </span><span class="text-muted">12 июня 2020</span></p>
+                                                <img class="w-100" src="files/graph-3.png" alt="График">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav nav-pills d-flex justify-content-center" id="nav-tab" role="tablist">
+                                        <a class="card-body__text--small nav-link text-center" href="#day-3" id="nav-pill-day-3" role="pill" data-toggle="pill">День</a>
+                                        <a class="card-body__text--small nav-link text-center" href="#week-3" id="nav-pill-week-3" role="pill" data-toggle="pill">Неделя</a>
+                                        <a class="card-body__text--small nav-link text-center active" href="#month-3" id="nav-pill-month-3" role="pill" data-toggle="pill">Месяц</a>
+                                        <a class="card-body__text--small nav-link text-center" href="#halfyear-3" id="nav-pill-halfyear-3" role="pill" data-toggle="pill">Полгода</a>
+                                        <a class="card-body__text--small nav-link text-center" href="#year-3" id="nav-pill-year-3" role="pill" data-toggle="pill">Год</a>
+                                        <a class="card-body__text--small nav-link text-center" href="#fiveyears-3" id="nav-pill-fiveyears-3" role="pill" data-toggle="pill">5 лет</a>
+                                        <a class="card-body__text--small nav-link text-center" href="#max-3" id="nav-pill-max-3" role="pill" data-toggle="pill">Max</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 align-self-center mt-3 mt-md-0">
+                            <h2 class="text-center text-md-left mb-3">Что <strong> входит  </strong>в рассылку и  <strong>как всё работает </strong></h2>
+                            <p class="text-center text-md-left text-muted mb-3 mb-md-5">Задача этого курса — дать полное понимание того, какие есть западные активы, как с ними работать, как на них зарабатывать</p>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/send.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Рассылка в телеграм-боте</h6>
+                                </div> 
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/check-circle.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Файл с рекомендациями из 6-7 позиций</h6>  
+                                </div>              
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/like.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Рекомендуемая сумма для старта от 40-50 тыс. рублей</h6> 
+                                </div>               
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+            </section>
+    
+            <section class="position-relative" id="about">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <h2 class="text-center text-md-left mb-3">Автор курса -  <strong>Анастасия Тарасова</strong></h2>
+                            <div class="d-md-none my-5">
+                                <img class="w-100" src="files/round-photo-1.png" alt="">
+                            </div>
+                            <p class="text-center text-md-left text-muted mb-3">Инвестор, трейдер, независимый финансовый советник, ведущая авторской программы “Живые деньги” на&nbsp;Москва&nbsp;FM, эксперт в&nbsp;сфере финансов федеральных СМИ</p>
+                            <p class="text-center text-md-left mb-4">«Моя миссия во&nbsp;многом социальная, я&nbsp;даю удочку своей аудитории, в&nbsp;остальном&nbsp;– дело за&nbsp;каждым. Я&nbsp;что-то между мотиватором и&nbsp;идейным вдохновителем. На&nbsp;простых примерах простым языком я&nbsp;рассказываю, как&nbsp;все&nbsp;работает. Я&nbsp;делаю фундаментальный продукт, чтобы&nbsp;люди могли сориентироваться сами&nbsp;в&nbsp;любых условиях».</p>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/star.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>7 лет </strong>практического опыта</h6>
+                                </div> 
+                            </div>
+                             <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/smile.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>4,5 миллиона </strong>подписчиков в Instagram</h6>  
+                                </div>              
+                            </div>
+                            <div class="row">
+                                <div class="col-auto pr-0 pt-2">
+                                    <img src="files/dollar-sign.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6></h6><strong>Сертифицированный </strong>финансовый советник, член <strong>Financial Planning Association</strong></h6> 
+                                </div>               
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block col-6 align-self-end ">
+                            <img class="w-100" src="files/index-woman.png" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </section>
+    
+            <section class="position-relative" id="rate">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 align-self-center">
+                            <h2 class="text-center mb-3">Варианты подписки</h2>
+                            <div class="row justify-content-center align-self-center">
+                                <div class="col-12 col-md-4 my-3">
+                                    <div class="card h-100">
+                                        <img class="card-img-top" src="files/mailing-list-rate-1.png" width="100%" height="auto" alt="Обложка курса">
+                                        <div class="card-body py-0">
+                                            <h5 class="text-center py-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.15);">Рассылка на 1 месяц</h5>
+                                            <div class="h4 text-center mt-3"><strong>1 600 ₽</strong></div>
+                                            <div class="row">
+                                                <div class="col-12 align-self-end my-3">
+                                                    <a href="https://nastyadocs.com/training/SSI13_bezOS.html#order_form" class="btn btn-primary rounded-pill btn-block"><strong>Купить</strong></a>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 my-3">
+                                    <div class="card h-100">
+                                        <img class="card-img-top" src="files/mailing-list-rate-2.png" width="100%" height="auto" alt="Обложка курса">
+                                        <div class="card-body py-0">
+                                            <h5 class="text-center py-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.15);">Рассылка на 6 месяцев</h5>
+                                            <div class="h4 text-center mt-3"><strong>8 660 ₽ <sup><small class="text-muted">9 600 ₽</small></sup></strong></div>
+                                            <div class="row">
+                                                <div class="col-12 align-self-end my-3">
+                                                    <a href="https://nastyadocs.com/training/SSI13_bezOS.html#order_form" class="btn btn-primary rounded-pill btn-block"><strong>Купить</strong></a>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 my-3">
+                                    <div class="card h-100">
+                                        <img class="card-img-top" src="files/mailing-list-rate-3.png" width="100%" height="auto" alt="Обложка курса">
+                                        <div class="card-body py-0">
+                                            <h5 class="text-center py-4" style="border-bottom: 1px solid rgba(0, 0, 0, 0.15);">Рассылка на 12 месяцев</h5>
+                                            <div class="h4 text-center mt-3"><strong>15 360 ₽ <sup><small class="text-muted">19 200 ₽</small></sup></strong></div>
+                                            <div class="row">
+                                                <div class="col-12 align-self-end my-3">
+                                                    <a href="https://nastyadocs.com/training/SSI13_bezOS.html#order_form" class="btn btn-primary rounded-pill btn-block"><strong>Купить</strong></a>
+                                                </div>
+                                            </div> 
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="position-relative" id="blog">
+                <div class="container">
+                    <div class="my-5">
+                        <h2 class="text-center text-md-left mb-3">Мой блог в Инстаграм</h2>
+                        <p class="text-secondary text-center text-md-left">Активно веду блог и рассказываю о личных финансах, инвестициях, работе с накоплениями и многом другом</p>
+                        <div class="d-flex align-items-center justify-content-around justify-content-md-start mb-5">
+                            <div>
+                                <h2 class="text-primary text-center text-md-left m-0">4,5 млн.</h2>
+                                <div class="text-center text-md-left">подписчиков</div>
+                            </div>
+                            <div class="ml-5">
+                                <h2 class="text-primary text-center text-md-left m-0">152</h2>
+                                <div class="text-center text-md-left">поста в 2019 г.</div>
+                            </div>
+                            <div class="d-none d-md-block ml-5">
+                                <a href="https://www.instagram.com/nastya_docs/" class="btn btn-primary btn-block rounded-pill px-5"><strong>Подпишись</strong></a>
+                            </div>
+                        </div>
+                        <div class="col-12 justify-content-between p-3 px-md-5">
+                            <div class="blog__sl d-flex mx-4 mx-md-3">
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-1.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Я лучше покажу вам отрывки из&nbsp;курса. Он переснят в&nbsp;абсолютно новом формате, и&nbsp;я просто кайфую </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-2.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Как зарабатывать на&nbsp;акциях, ничего не&nbsp;делая? Ставьте&nbsp;❤️&nbsp; и&nbsp;внимательно читайте👇🏻 </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-3.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Частый вопрос: можно ли&nbsp;потерять деньги на&nbsp;бирже? Можно! И&nbsp;не&nbsp;только там. Написала для&nbsp;вас </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-4.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>С каждым новым постом мневсе&nbsp;сложнее и&nbsp;сложнее вам писать. Потому, что&nbsp;очень много </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-1.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Я лучше покажу вам отрывки из&nbsp;курса. Он переснят в&nbsp;абсолютно новом формате, и&nbsp;я просто кайфую </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-2.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Как зарабатывать на&nbsp;акциях, ничего не&nbsp;делая? Ставьте&nbsp;❤️&nbsp; и&nbsp;внимательно читайте👇🏻 </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-md-none row justify-content-center justify-content-md-start mt-5">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <a href="https://www.instagram.com/nastya_docs/" class="btn btn-primary btn-block rounded-pill"><strong>Подпишись</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5BD0E6">
+        <link href="css/main.min.css" rel="stylesheet">
+
+        <title itemprop="headline">Главная | Анастасия Тарасова</title>
+    </head>
+
+    <body class="page-content page-home">
+
+        <header class="nav__container fixed-top p-0">       
+            <nav class="navbar navbar-expand-lg container py-1">
+                <a class="navbar-brand my-2 mr-2" href="index.html">
+                    <img src="img/logo.svg" width="180" height="50" alt="Анастасия Тарасова">
+                </a>
+                <div class="navbar__icon d-lg-none" type="button" data-target="#menu-nav" data-toggle="collapse">
+                </div>
+                <div id="menu-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex flex-wrap align-items-center mr-0 ml-auto ">
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="courses.html">Курсы</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="book.html">Книга</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="mailing-list.html">Рассылка</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="about.html">Обо&nbspмне</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link active" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item d-md-none m-2">
+                            <a class="nav-link" href="404.html">Вход</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block my-2 ml-2">
+                            <a href="404.html" class="btn btn-outline-primary rounded-pill nav__btn m-0">Вход</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="subscribe">
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                            <h2 class="mb-5">Если у вас появились вопросы или предложения, <strong class="text-primary">напишите нам</strong></h2>
+                            <h3 class="mb-4">Контакты</h3>
+                            <p class="text-secondary mb-1">Адрес</p>
+                            <p class="h5 mb-3">Россия, Москва, ул. Лесная, д. 43</p>
+                            <p class="text-secondary mb-1">Индивидуальный предприниматель</p>
+                            <p class="h5 mb-3">Тарасова Анастасия Александровна</p>
+                            <p class="text-secondary mb-1">Номер налогоплательщика</p>
+                            <p class="h5 mb-3">772982946942</p>
+                            <p class="text-secondary mb-1">Почта</p>
+                            <p class="h5 mb-3">nastya_docs@mail.ru</p>
+                            <div class="mt-5 mb-5 mb-md-0">
+                                <a class="mr-2" href="https://www.youtube.com/channel/UCnxcLxv_ZFCFt6w56-AucZA">
+                                    <img src="files/youtube.svg" width="50px" height="auto" alt="">
+                                </a>
+                                <a class="mx-2" href="#">
+                                    <img src="files/fb.svg" width="50px" height="auto" alt="">
+                                </a>
+                                <a class="ml-2" href="https://www.instagram.com/nastya_docs/?hl=ru">
+                                    <img src="files/insta.svg" width="50px" height="auto" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                            <form class="p-5" style="background-color: #DFE9F9; border: 2px solid #E1E1E1; border-radius: 10px;">
+                                <div class="form-group">
+                                    <label class="form-label text-black-50" for="name">Имя </label>
+                                    <input class="form-control" type="name" class="form-control" id="name" placeholder="Как вас зовут?">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label text-black-50" for="email">Почта </label>
+                                    <input class="form-control" type="email" class="form-control" id="email" placeholder="Введите ваш e-mail">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label text-black-50" for="question">Выберите отдел</label>
+                                    <select class="form-control text-black-50" id="question">
+                                        <option>Что вас интересует?</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label text-black-50" for="text">Сообщение</label>
+                                    <textarea class="form-control text-black-50" id="text" rows="5">Расскажите про свой вопрос...</textarea>
+                                  </div>
+                                <div class="d-flex flex-column flex-lg-row">
+                                    <div class="form-group form-check align-self-center m-0">
+                                        <input type="checkbox" class="form-check-input" id="check-1" checked>
+                                        <label class="form-check-label text-black-50" for="check-1">Вы даете согласие на обработку <strong>персональных данных</strong></label>   
+                                    </div>
+                                    <div class="form-group d-flex align-self-center justify-content-center m-0 pt-3 pl-lg-3">
+                                        <button type="submit" class="btn btn-primary rounded-pill text-bold px-4 px-xl-5"><strong>Отправить</strong></button> 
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>      
+                </div>
+            </section>
+    
+        </main>
+    
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+    

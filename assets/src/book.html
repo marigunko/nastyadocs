@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5BD0E6">
+        <link href="css/main.min.css" rel="stylesheet">
+
+        <title itemprop="headline">Главная | Анастасия Тарасова</title>
+    </head>
+
+    <body class="page-content page-home">
+        <header class="nav__container fixed-top p-0">       
+            <nav class="navbar navbar-expand-lg container py-1">
+                <a class="navbar-brand my-2 mr-2" href="index.html">
+                    <img src="img/logo.svg" width="180" height="50" alt="Анастасия Тарасова">
+                </a>
+                <div class="navbar__icon d-lg-none" type="button" data-target="#menu-nav" data-toggle="collapse">
+                </div>
+                <div id="menu-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex flex-wrap align-items-center mr-0 ml-auto ">
+                        <li class="nav-item m-2">
+                            <a class="nav-link " href="courses.html">Курсы</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link active" href="#">Книга</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="mailing-list.html">Рассылка</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="about.html">Обо&nbspмне</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                        <li class="nav-item d-md-none m-2">
+                            <a class="nav-link" href="404.html">Вход</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block my-2 ml-2">
+                            <a href="404.html" class="btn btn-outline-primary rounded-pill nav__btn m-0">Вход</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+                
+            <div class="fixed-side-navbar d-none d-md-block">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#home"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#book-content"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#advantages"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rate"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog"></a></li>
+                </ul>
+            </div>
+    
+            <section class="position-relative" id="home">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-xs-12 col-md-6 align-self-center"><img class="w-100" src="files/book-main.png" alt="" /></div>
+                            <div class="order-md-first col-xs-12 col-md-6 align-self-center">
+                                <div class="row">
+                                    <div class="col-12 pt-5 pt-md-0">
+                                        <h1 class="text-center text-md-left">Как <strong>тратить </strong>с умом и <strong>копить </strong>правильно</h1>
+                                        <p class="text-center text-md-left text-muted">Книга “Сам себе финансист”. Анастасия Тарасова, 2018 год</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 text-center text-md-left mt-5"><a href="404.html" class="btn btn-primary btn-block rounded-pill text-bold"><strong>Узнать больше</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+    
+            <section class="position-relative" id="book-content">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-5">
+                            <h2 class="text-center text-md-left mb-5">Для всех, кто любит <strong>порядок в финансах</strong></h2>
+                            <div class="d-md-none align-self-center my-5">
+                                <img class="w-100" src="files/open-book.png" alt="" />
+                            </div>
+                            <div>
+                                <input class="book-content__input" type="checkbox" name="book-content-1" id="book-content-1"></input>
+                                <label class="book-content__label mb-3 pr-5" for="book-content-1"><strong>Глава 1. </strong>Бюджет</label>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                            </div>
+                            <div>
+                                <input class="book-content__input" type="checkbox" name="book-content-2" id="book-content-2"></input>
+                                <label class="book-content__label mb-3 pr-5" for="book-content-2"><strong>Глава 2. </strong>Оптимизация бюджет</label>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                            </div>
+                            <div>
+                                <input class="book-content__input" type="checkbox" name="book-content-3" id="book-content-3"></input>
+                                <label class="book-content__label mb-3 pr-5" for="book-content-3"><strong>Глава 3. </strong>Активы и пассивы</label>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                            </div>
+                            <div>
+                                <input class="book-content__input" type="checkbox" name="book-content-4" id="book-content-4"></input>
+                                <label class="book-content__label mb-3 pr-5" for="book-content-4"><strong>Глава 4. </strong>Инвестиции</label>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                            </div>
+                            <div>
+                                <input class="book-content__input" type="checkbox" name="book-content-5" id="book-content-5"></input>
+                                <label class="book-content__label mb-3 pr-5" for="book-content-5"><strong>Глава 5. </strong>Пенсия и будущее детей</label>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                                <p class="book-content__text text-muted">Заголовок</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-10 col-lg-8 text-center text-md-left mt-5"><a href="404.html" class="btn btn-primary btn-block rounded-pill text-bold"><strong>Читать фрагмент книги</strong></a></div>
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block col-7">
+                            <img class="w-100" src="files/open-book.png" alt="" />
+                        </div>
+                    </div>
+                </div>          
+            </section>
+    
+            <section class="position-relative" id="advantages">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="d-none d-md-block col-6 align-self-center">
+                            <img class="w-100" src="files/finance-book.png" alt="" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                            <h2 class="text-center text-md-left mb-3">Что <strong>вы получите </strong>от прочтения книги</h2>
+                            <div class="text-center text-md-left text-secondary mb-3">В ней вы найдёте ответы на основные вопросы по финансам</div>
+                            <div class="d-md-none my-5">
+                                <img class="w-100" src="files/finance-book.png" alt="" />
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap ">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/arrows-circle.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Как заставить деньги работать</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/shield.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Что такое подушка безопасности, и зачем она нужна</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/check-circle.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Как оптимизировать доходы и расходы</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/flag.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Как правильно ставить финансовые цели</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/holder.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Как правильно управлять активами и пассивами</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/dollar-sign.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Что происходит с пенсионной системой</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/briefcase.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Как сформировать пенсию самостоятельно</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="row d-flex flex-nowrap">
+                                        <div class="col-auto pr-0">
+                                            <img src="files/home.svg" width="24" height="24" alt="" />
+                                        </div>
+                                        <div class="col mt-1">
+                                            <h6>Как накопить на образование и жилье своим детям</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="position-relative" id="reviews">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-5 align-self-center">
+                            <h2 class="text-center text-md-left mb-5"><strong>Что говорят люди, </strong>которые прочитали</h2>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/smile.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Написано с юмором и доступным языком</h6>
+                                </div> 
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/like.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Отлично подходит начинающим инвесторам</h6>
+                                </div> 
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/trending-up.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Хорошие наглядные расчеты</h6>
+                                </div> 
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/layers.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6>Все четко и по полочкам! Без лишней воды и лишней теоризации</h6>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 align-self-center mt-5 mt-md-0">
+                            <div class="reviews__sl">
+                                <div class="sl__item px-2"><img src="files/review-screenshot-1.png" width="100%" height="auto" alt="Фото" /></div>
+                                <div class="sl__item px-2"><img src="files/review-screenshot-2.png" width="100%" height="auto" alt="Фото" /></div>
+                                <div class="sl__item px-2"><img src="files/review-screenshot-1.png" width="100%" height="auto" alt="Фото" /></div>
+                                <div class="sl__item px-2"><img src="files/review-screenshot-2.png" width="100%" height="auto" alt="Фото" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="position-relative" id="about">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <h2 class="text-center text-md-left mb-3">Автор курса -  <strong>Анастасия Тарасова</strong></h2>
+                            <div class="d-md-none my-5">
+                                <img class="w-100" src="files/round-photo-1.png" alt="">
+                            </div>
+                            <p class="text-center text-md-left text-muted mb-3">Инвестор, трейдер, независимый финансовый советник, ведущая авторской программы “Живые деньги” на&nbsp;Москва&nbsp;FM, эксперт в&nbsp;сфере финансов федеральных СМИ</p>
+                            <p class="text-center text-md-left mb-4">«Моя миссия во&nbsp;многом социальная, я&nbsp;даю удочку своей аудитории, в&nbsp;остальном&nbsp;– дело за&nbsp;каждым. Я&nbsp;что-то между мотиватором и&nbsp;идейным вдохновителем. На&nbsp;простых примерах простым языком я&nbsp;рассказываю, как&nbsp;все&nbsp;работает. Я&nbsp;делаю фундаментальный продукт, чтобы&nbsp;люди могли сориентироваться сами&nbsp;в&nbsp;любых условиях».</p>
+                            <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/star.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>7 лет </strong>практического опыта</h6>
+                                </div> 
+                            </div>
+                             <div class="row pb-3">
+                                <div class="col-auto pr-0">
+                                    <img src="files/smile.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6><strong>4,5 миллиона </strong>подписчиков в Instagram</h6>  
+                                </div>              
+                            </div>
+                            <div class="row">
+                                <div class="col-auto pr-0 pt-2">
+                                    <img src="files/dollar-sign.svg" width="24" height="24" alt="Иконка">
+                                </div>
+                                <div class="col mt-1">
+                                    <h6></h6><strong>Сертифицированный </strong>финансовый советник, член <strong>Financial Planning Association</strong></h6> 
+                                </div>               
+                            </div>
+                        </div>
+                        <div class="d-none d-md-block col-6 align-self-end ">
+                            <img class="w-100" src="files/index-woman.png" alt="">
+                        </div>
+                    </div> 
+                </div>
+            </section>
+    
+            <section class="position-relative" id="bookstore">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-12">
+                            <h2 class="text-center text-md-left mb-5">Где можно купить</h2>
+                            <div class="bookstore__sl">
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-1.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-2.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-3.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-4.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-1.png" alt="График" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-2.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-3.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sl__item px-2">
+                                    <div class="card">
+                                        <img class="card-img-top w-100" src="files/bookstore-4.png" alt="" />
+                                        <div class="card-body">
+                                            <p>Мой любимый книжный</p>
+                                            <p class=" h4 text-primary">550 ₽</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="position-relative" id="blog">
+                <div class="container">
+                    <div class="my-5">
+                        <h2 class="text-center text-md-left mb-3">Мой блог в Инстаграм</h2>
+                        <p class="text-secondary text-center text-md-left">Активно веду блог и рассказываю о личных финансах, инвестициях, работе с накоплениями и многом другом</p>
+                        <div class="d-flex align-items-center justify-content-around justify-content-md-start mb-5">
+                            <div>
+                                <h2 class="text-primary text-center text-md-left m-0">4,5 млн.</h2>
+                                <div class="text-center text-md-left">подписчиков</div>
+                            </div>
+                            <div class="ml-5">
+                                <h2 class="text-primary text-center text-md-left m-0">152</h2>
+                                <div class="text-center text-md-left">поста в 2019 г.</div>
+                            </div>
+                            <div class="d-none d-md-block ml-5">
+                                <a href="https://www.instagram.com/nastya_docs/" class="btn btn-primary btn-block rounded-pill px-5"><strong>Подпишись</strong></a>
+                            </div>
+                        </div>
+                        <div class="col-12 justify-content-between p-3 px-md-5">
+                            <div class="blog__sl d-flex mx-4 mx-md-3">
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-1.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Я лучше покажу вам отрывки из&nbsp;курса. Он переснят в&nbsp;абсолютно новом формате, и&nbsp;я просто кайфую </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-2.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Как зарабатывать на&nbsp;акциях, ничего не&nbsp;делая? Ставьте&nbsp;❤️&nbsp; и&nbsp;внимательно читайте👇🏻 </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-3.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Частый вопрос: можно ли&nbsp;потерять деньги на&nbsp;бирже? Можно! И&nbsp;не&nbsp;только там. Написала для&nbsp;вас </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-4.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>С каждым новым постом мневсе&nbsp;сложнее и&nbsp;сложнее вам писать. Потому, что&nbsp;очень много </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-1.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Я лучше покажу вам отрывки из&nbsp;курса. Он переснят в&nbsp;абсолютно новом формате, и&nbsp;я просто кайфую </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                                <div class="card blog__item m-2">
+                                    <div class="card-text d-flex p-2">
+                                        <img src="files/nastya_docs-photo.png" width="35" height="35" alt="Аватар">
+                                        <h5 class="pt-1 pl-2">nastya_docs</h5>
+                                    </div> 
+                                    <img src="files/insta-2.png" width="100%" height="auto" alt="Фото">
+                                    <div class="card-body p-2">  
+                                        <small><strong>nastya_docs </strong>Как зарабатывать на&nbsp;акциях, ничего не&nbsp;делая? Ставьте&nbsp;❤️&nbsp; и&nbsp;внимательно читайте👇🏻 </small>
+                                        <a class="text-muted" href="https://www.instagram.com/nastya_docs/">...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-md-none row justify-content-center justify-content-md-start mt-5">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <a href="https://www.instagram.com/nastya_docs/" class="btn btn-primary btn-block rounded-pill"><strong>Подпишись</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        </main>
+
+        <script src="/js/main.js"></script>
+        
+    </body>
+</html>
